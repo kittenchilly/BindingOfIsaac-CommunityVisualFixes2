@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>zzzzzCommunity Visual Fixes - Resources</name>
+    <directory>community visual fixes resources</directory>
+    <id>1385512368</id>
+    <description>This is a compilation of visual fixes made by the community, a successor and continuation of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1158478342]Real Cone Head[/url], most of which was added to the game.
+
+[h1]This mod is meant to be a replacement for Real Cone Head, unsubscribe from Real Cone Head and instead subscribe to Community Visual Fixes. Community Visual Fixes contains most of the fixes that were not added to the booster pack, and a ton of new ones.[/h1]
+
+The goal of the compilation is to fix strange inconsistencies and oddities, and to generally clean up the game a bit while respecting the game's original styles and designs.
+
+[h1]Changes[/h1]
+For a full list of changes, please see the [url=https://steamcommunity.com/workshop/filedetails/discussion/1385512368/2561864094353833652/]List of changes[/url] pinned topic.
+
+You will also need to subscribe to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1393980873]Scripted Changes[/url] mod for the rest of the fixes. This contains fixes that are only possible through LUA code.</description>
+    <version>1.75</version>
+    <visibility>Public</visibility>
+    <tag id="Tweaks"/>
+    <tag id="Removals"/>
+    <tag id="Graphics"/>
+</metadata>
