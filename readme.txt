@@ -1,6 +1,7 @@
 Resource Changes (this would be posted in a steam workshop topic)
 
 [h1]Backdrops[/h1]
+- Enables a bloodless scarred room pit texture, for use in scarred womb pits that appear in The Void. This is needed because these rooms, unlike the main floor, are not filled with liquid and use caves' pit texture as a fallback.
 - Fixed brown coloring of a catacombs corner wall so it matches other catacombs walls.
 - Removed some wall corners from a cathedral corridor floor.
 - Recreated the side of the floating island seen in the mega satan arena based on dark room's floating islands. This removes some messy work and makes it look generally better.
@@ -144,6 +145,9 @@ Resource Changes (this would be posted in a steam workshop topic)
 - Tweaked the palette of diagonal mom's knife. (though this likely never appears ingame)
 
 [h1]Familiars[/h1]
+- Makes Incubus play its unique Brimstone shooting animation if you have Brimstone. This change doesn't require the main mod.
+- Makes Ball of Bandages lv2, Rotten Baby, and Mongo Baby play their unique left facing sprites, which were previously unused. Mongo Baby's left facing sprites don't require the main mod.
+- Applies some new floating animations to Buddy in a Box.
 - Fixed many cases of missing outline of the bottom right of up/down facing sprites. (usually up)
 - Trimmed Lil Brimstone's outlines around the horns.
 - Smoothed outline of Mini Death, the prevous outline looked pretty bad.
@@ -235,6 +239,10 @@ Resource Changes (this would be posted in a steam workshop topic)
 - Thickened Tape Worm's outline near the top of the sprite.
 
 [h1]Monsters[/h1]
+- Dirt sprites are now applied based on the backdrop instead of what floor you're in.
+- Dirt sprites will now update when the boss' ids change and when the backdrop changes.
+- Delirium dirt sprites are now fixed and fully featured, with unique dirt sprites for the delirium forms.
+- Enables unique sprites for gushers spawned from Mr. Maws, Mr. Red Maws, and Lepers.
 - Added a unique body for Hive.
 - Drowned Hive now has consistent outline colors.
 - Drowned Hive now uses the drowned enemy body spritesheet.
@@ -290,6 +298,7 @@ Resource Changes (this would be posted in a steam workshop topic)
 - Restored glint to some scarred womb dirt sprites
 
 [h1]Bosses[/h1]
+- Fixes some issues with Delirium boss form dirt sprites, such as when it reverts to default pin or frail. This change doesn't require the main mod.
 - Cleaned up Krampus' outlines.
 - Added shading to parts of Krampus.
 - Cleaned up the "satan radial" effects.

@@ -1,7 +1,17 @@
---add a global just in case other mods want to know that we're active
-CommunityVisualFixesResources = RegisterMod("Community Visual Fixes - Resources", 1)
+--make this a global just in case other mods want to know that we're active.
+CommunityVisualFixesScriptedChanges = RegisterMod("Community Visual Fixes - Scripted Changes", 1)
 
---legacy variable just in case some mod checks for this
-RealConeHeadVisualFixesResourcesMod = CommunityVisualFixesResources
+--legacy variable just in case some mod checks for this.
+RealConeHeadVisualFixesMod = CommunityVisualFixesScriptedChanges
 
---we have to put most of our other scripted changes in a separate mod because of crappy load order stuff. zzzzzCommunity Visual Fixes is a great workaround for resources, but it causes the code to load after all other mods too.
+--we're trying to keep this as visual fixes, nothing gameplay altering.
+--this script is only used for cases where simply replacing an animation or png isn't enough to fix a visual oddity.
+
+--im going to try to add a lot of comments here to avoid confusion and maybe to help people learn a bit.
+
+--load the scripts
+require("scripts.visualfixes.incubus")
+require("scripts.visualfixes.dirt")
+require("scripts.visualfixes.gusher")
+require("scripts.visualfixes.left_familiars")
+require("scripts.visualfixes.buddy_box")
